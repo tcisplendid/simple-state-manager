@@ -1,0 +1,38 @@
+{
+  "name": "simple-state-manager",
+  "version": "0.0.1",
+  "description": "Combines Rematch style and Zustand style with simplification of usage.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Tiancheng He",
+  "license": "MIT",
+  "dependencies": {
+    "zustand": "4.4.7",
+    "lodash": "4.17.21",
+    "ahooks": "3.7.8"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.2",
+    "prettier": "^3.1.0",
+    "eslint": "^8.54.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "@typescript-eslint/eslint-plugin": "^6.13.0",
+    "@typescript-eslint/parser": "^6.13.0",
+    "@types/react": "^18.2.39",
+    "@types/react-dom": "^18.2.17",
+    "@types/lodash": "4.14.202"
+  },
+  "peerDependencies": {
+    "immer": ">=9.0",
+    "@types/react": ">=16.8",
+    "react": ">=16.8"
+  }
+}
